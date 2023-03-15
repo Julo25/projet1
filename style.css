@@ -1,133 +1,19 @@
-/* Styles pour le header */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0074a2;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  nav img {
-    height: 3rem;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-left: 1rem;
-  }
-  
-  nav ul li:first-child {
-    margin-left: 0;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem;
-    border-radius: 0.25rem;
-    transition: all 0.2s ease;
-  }
-  
-  nav ul li a:hover {
-    background-color: #fff;
-    color: #0074a2;
-  }
-  
-  .banner {
-    background-image: url(banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-  }
-  
-  .banner h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-  }
-  
-  .banner p {
-    font-size: 1.5rem;
-    margin-top: 0;
-  }
-  
-  .cta {
-    background-color: #fff;
-    color: #0074a2;
-    padding: 1rem 2rem;
-    border-radius: 0.25rem;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.2s ease;
-  }
-  
-  .cta:hover {
-    background-color: #0074a2;
-    color: #fff;
-  }
-  
-  /* Styles pour la section intro */
-  .intro {
-    padding: 2rem;
-  }
-  
-  .intro h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  /* Styles pour la section activités */
-  .activities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
-  }
-  
-  .activity {
-    background-color: #f2f2f2;
-    padding: 2rem;
-    width: calc(33.33% - 1rem);
-    margin-bottom: 1rem;
-  }
-  
-  .activity img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  
-  .activity h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .activity p {
-    margin-bottom: 1rem;
-  }
-  
-  .activity .cta {
-    background-color: #0074a2;
-    color: #fff;
-    padding: 1rem 2rem;
-    border-radius: 0.25rem;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.2s ease;
-  }
-  
-  .activity .cta:hover {
-    background-color: #fff;
-    color: #0074a2;
-  }
-  
+/* Appliquer une couleur de fond à tout le document */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Colorer les en-têtes h1 en rouge */
+h1 {
+  color: red;
+}
+
+/* Ajouter une bordure bleue autour des images */
+img {
+  border: 2px solid blue;
+}
+
+/* Donner une couleur de fond jaune aux blocs de texte ayant la classe "highlight" */
+.highlight {
+  background-color: yellow;
+}
