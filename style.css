@@ -1,19 +1,7 @@
-/* Appliquer une couleur de fond à tout le document */
-body {
-  background-color: #f2f2f2;
-}
-
-/* Colorer les en-têtes h1 en rouge */
-h1 {
-  color: red;
-}
-
-/* Ajouter une bordure bleue autour des images */
-img {
-  border: 2px solid blue;
-}
-
-/* Donner une couleur de fond jaune aux blocs de texte ayant la classe "highlight" */
-.highlight {
-  background-color: yellow;
+.menu {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
