@@ -1,7 +1,19 @@
 header {
   height: 45px;
   background-color: #05304f;
+  display: flex;
+  justify-content: space-between;
 }
+
+
+.test_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
 
 .logo {
   color: yellow;
@@ -10,23 +22,25 @@ header {
 }
 
 .qui {
-  color: antiquewhite;
+  color: white;
   justify-content: flex-start;
 
 }
 
 .quoi {
-
+  color: white;
   justify-content: flex-start;
 
 }
 
-.où {
+.ou {
+  color: white;
   justify-content: flex-start;
 
 }
 
 .comment {
+  color: white;
   justify-content: flex-start;
 
 }
