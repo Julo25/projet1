@@ -3,7 +3,30 @@ header {
   background-color: #05304f;
 }
 
-  #logo {
-    color: yellow;
+.logo {
+  color: yellow;
+  justify-content: flex-start;
+
+}
+
+.qui {
+  color: antiquewhite;
+  justify-content: flex-start;
+
+}
+
+.quoi {
+
+  justify-content: flex-start;
+
+}
+
+.où {
+  justify-content: flex-start;
+
+}
+
+.comment {
+  justify-content: flex-start;
 
 }
