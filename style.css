@@ -6,12 +6,11 @@ header {
 }
 
 
-.test_flex {
+.aligne {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 
 
