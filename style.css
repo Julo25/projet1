@@ -1,18 +1,26 @@
 header {
-  height: 45px;
+  height: 49px;
   background-color: #05304f;
   display: flex;
   justify-content: space-between;
 }
 
-
-.aligne {
+nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+}
 
+li {display: inline;
+	list-style: none; /* pour enlever les puces sur IE7 */
+	margin: 10px;
+}
 
 .logo {
   color: yellow;
@@ -20,26 +28,23 @@ header {
 
 }
 
-.qui {
+.ask {
   color: white;
   justify-content: flex-start;
-
 }
 
-.quoi {
-  color: white;
-  justify-content: flex-start;
 
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
-.ou {
-  color: white;
-  justify-content: flex-start;
-
-}
-
-.comment {
-  color: white;
-  justify-content: flex-start;
-
+div q {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
 }
