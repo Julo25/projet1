@@ -24,16 +24,20 @@ li {display: inline;
 
 .logo {
   color: yellow;
+  display: flex;
   justify-content: flex-start;
-
 }
 
 .ask {
   color: white;
+  display: flex;
   justify-content: flex-start;
 }
 
-
+.media {
+  display: flex;
+  justify-content: flex-end;
+}
 
 img {
   width: 100%;
