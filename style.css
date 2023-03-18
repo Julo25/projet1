@@ -1,3 +1,10 @@
+@import url(https://fonts.bunny.net/css?family=alfa-slab-one:400);
+
+header {
+  font-family: 'Alfa Slab One', display;
+}
+
+
 header {
   height: 49px;
   background-color: #05304f;
@@ -17,9 +24,11 @@ nav ul {
   list-style: none;
 }
 
-li {display: inline;
-	list-style: none; /* pour enlever les puces sur IE7 */
-	margin: 10px;
+li {
+  display: inline;
+  list-style: none;
+  /* pour enlever les puces sur IE7 */
+  margin: 10px;
 }
 
 .logo {
@@ -51,4 +60,19 @@ div q {
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 24px;
+}
+
+.img-einstein {
+  width: 120%;
+  height: 120%;
+  /* hauteur fixe du conteneur */
+  overflow: hidden;
+  /* pour cacher les parties de l'image qui dépassent du conteneur */
+}
+
+.image-einstein img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* pour redimensionner l'image et la faire remplir le conteneur en conservant les proportions d'origine */
 }
