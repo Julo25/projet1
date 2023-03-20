@@ -10,14 +10,9 @@ header {
   background-color: #05304f;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-}
 
 nav ul {
   display: flex;
@@ -33,20 +28,28 @@ li {
 
 .logo {
   color: yellow;
+  font-size: 30px;
   display: flex;
   justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .ask {
+  font-size: 30px;
   color: white;
   display: flex;
   justify-content: flex-start;
 }
 
-.media {
+.media-icons {
+  color: white;
   display: flex;
   justify-content: flex-end;
 }
+
 
 img {
   width: 100%;
