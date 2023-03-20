@@ -13,6 +13,17 @@ header {
   align-items: center;
 }
 
+nav h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+nav h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 nav ul {
   display: flex;
@@ -38,18 +49,15 @@ li {
 }
 
 .ask {
-  font-size: 30px;
   color: white;
   display: flex;
   justify-content: flex-start;
 }
 
-.media-icons {
-  color: white;
+.media {
   display: flex;
   justify-content: flex-end;
 }
-
 
 img {
   width: 100%;
