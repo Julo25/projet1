@@ -41,6 +41,10 @@ li {
   color: white;
   display: flex;
   justify-content: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .media {
@@ -50,14 +54,21 @@ li {
 }
 
 .slide {
-  background-image: url("./Albert_Einstein.jpg")
+  background-image: url("./Albert_Einstein.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 97vh;
+  width: 100%;
+
+
+  color: white;
+
 }
 
-div q {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
-  font-size: 24px;
+blockquote {
+  color: floralwhite;
+}
+
+blockquote cite {
+  font-style: normal;
 }
