@@ -13,22 +13,11 @@ header {
   align-items: center;
 }
 
-nav h1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-nav h2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 nav ul {
   display: flex;
   list-style: none;
 }
+
 
 li {
   display: inline;
@@ -55,13 +44,13 @@ li {
 }
 
 .media {
+  color: white;
   display: flex;
   justify-content: flex-end;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+.slide {
+  background-image: url("./Albert_Einstein.jpg")
 }
 
 div q {
@@ -71,19 +60,4 @@ div q {
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   font-size: 24px;
-}
-
-.img-einstein {
-  width: 120%;
-  height: 120%;
-  /* hauteur fixe du conteneur */
-  overflow: hidden;
-  /* pour cacher les parties de l'image qui dépassent du conteneur */
-}
-
-.image-einstein img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* pour redimensionner l'image et la faire remplir le conteneur en conservant les proportions d'origine */
 }
