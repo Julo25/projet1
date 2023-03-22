@@ -109,6 +109,14 @@ section {
   display: block;
 }
 
+/*fin du reset css*/
+
+@font-face {
+  font-family: 'GraphikBold';
+  src: url('C:\Users\Stagiaire\Documents\GitHub\projet1\projet1');
+  font-size: 100%
+}
+
 body {
   line-height: 1;
 }
@@ -137,19 +145,12 @@ table {
 }
 
 
-
-@import url(https://fonts.bunny.net/css?family=alfa-slab-one:400);
-/*police header*/
-
-@import url(https://fonts.bunny.net/css?family=alfa-slab-one:400);
-/*police quote*/
-
 header {
-  font-family: 'Alfa Slab One', display;
+  font-family: 'GraphikBold';
 }
 
 blockquote {
-  font-family: 'Alfa Slab One', display;
+  font-family: 'GraphikBold';
 }
 
 
@@ -221,11 +222,78 @@ li {
 }
 
 blockquote {
-  color: floralwhite;
+  color: white;
   text-align: center;
   margin: center;
 }
 
 blockquote cite {
   font-style: normal;
+}
+
+
+.article {
+  background-color:#05304f;
+  background-position: center;
+  background-size: cover;
+  height: 97vh;
+  width: 100%; 
+}
+
+   /*partie en construction */        
+.vignette {
+  background-color:blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+
+.vignette-1 {
+  background-image: ;
+  background-position: 0 0;
+  top: 0;
+  left: 0;
+}
+
+.vignette-2 {
+  background-position: 100px 0;
+  top: 0;
+  left: 100px;
+}
+
+.vignette-3 {
+  background-position: 200px 0;
+  top: 0;
+  left: 200px;
+}
+
+.vignette-4 {
+  background-position: 300px 0;
+  top: 0;
+  left: 300px;
+}
+
+.vignette-5 {
+  background-position: 0 100px;
+  top: 100px;
+  left: 0;
+}
+
+.vignette-6 {
+  background-position: 100px 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.vignette-7 {
+  background-position: 200px 100px;
+  top: 100px;
+  left: 200px;
+}
+
+.vignette-8 {
+  background-position: 300px 100px;
+  top: 100px;
+  left: 300px;
 }
