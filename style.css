@@ -112,13 +112,17 @@ section {
 /*fin du reset css*/
 
 @font-face {
-  font-family: 'Graphik-Bold-Trial.otf';
-  src: url('');
-  font-size: 100%
+  font-family: "GraphikBold", sans-serif;
+ 
+  src: url(/Graphik-Bold-Trial.otf);
+ 
 }
 
 body {
   line-height: 1;
+  font-family: "GraphikBold";
+  font-weight: 600;
+
 }
 
 ol,
@@ -146,8 +150,11 @@ table {
 
 
 header {
-  font-family: 'GraphikBold';
+  font-family: "GraphikBold";
+  font-weight: 600;
+
 }
+
 
 blockquote {
   font-family: 'GraphikBold';
@@ -244,7 +251,7 @@ blockquote cite {
   width: 100%;
 }
 
-/*partie en construction */
+/*partie en construction 
 .vignette {
   background-color: blue;
   width: 100px;
