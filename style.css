@@ -113,9 +113,9 @@ section {
 
 @font-face {
   font-family: "GraphikBold", sans-serif;
- 
+
   src: url(/Graphik-Bold-Trial.otf);
- 
+
 }
 
 body {
@@ -123,6 +123,10 @@ body {
   font-family: "GraphikBold";
   font-weight: 600;
 
+}
+
+h1 {
+  display: none;
 }
 
 ol,
@@ -143,6 +147,7 @@ q:after {
   content: none;
 }
 
+/* un probleme ici peut etre*/
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -152,6 +157,11 @@ table {
 header {
   font-family: "GraphikBold";
   font-weight: 600;
+  height: 49px;
+  background-color: #05304f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -161,15 +171,7 @@ blockquote {
 }
 
 
-header {
-  height: 49px;
-  background-color: #05304f;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
+ul {
   display: flex;
   list-style: none;
 }
