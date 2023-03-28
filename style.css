@@ -123,15 +123,13 @@ body {
   font-family: "GraphikBold";
   font-weight: 600;
   font-size: 2em;  
-
-  /* comment agrandir cette police dans le body */
-
-
 }
 
 h1 {
-  display: none;
+  color: black;
+  text-align: center;
 }
+
 
 ol,
 ul {
@@ -149,12 +147,6 @@ q:before,
 q:after {
   content: "";
   content: none;
-}
-
-/* un probleme ici peut etre*/
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 
@@ -242,10 +234,6 @@ blockquote {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-blockquote cite {
-  font-style: normal;
 }
 
 
